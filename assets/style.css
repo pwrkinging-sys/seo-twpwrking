@@ -1,0 +1,15 @@
+
+:root{--bg:#0b0b0f;--card:#15151d;--text:#f6f6f6;--muted:#c9c9d1;--gold:#ffcc4d;--red:#ff3434}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;background:#fff;color:#161616;line-height:1.75}
+a{color:#b00000;text-decoration:none}.topbar{background:#111;color:#fff;padding:10px 18px;text-align:center;font-weight:700}
+header{padding:18px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff;z-index:9}
+.logo{font-weight:900;font-size:22px}.nav a{margin-left:14px;color:#333;font-weight:700}.hero{background:linear-gradient(135deg,#111,#3b0000);color:#fff;padding:64px 20px}
+.hero-inner{max-width:1080px;margin:auto}.hero h1{font-size:42px;line-height:1.2;margin:0 0 14px}.hero p{font-size:20px;color:#f1f1f1;max-width:780px}
+.cta{display:inline-block;background:#ffcc4d;color:#111;padding:13px 22px;border-radius:10px;font-weight:900;margin-top:18px}
+section{max-width:1080px;margin:auto;padding:46px 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{border:1px solid #eee;border-radius:16px;padding:22px;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.05)}.card h3{margin-top:0}
+.badges{display:flex;flex-wrap:wrap;gap:10px}.badge{background:#fff5cc;padding:8px 12px;border-radius:999px;font-weight:700}
+.faq dt{font-weight:900;margin-top:18px}.footer{background:#111;color:#fff;padding:34px 20px;text-align:center}
+.article h1,.service h1{font-size:34px;line-height:1.25}.notice{background:#fff7e0;border-left:5px solid #ffcc4d;padding:16px;margin:24px 0}
+.table{width:100%;border-collapse:collapse}.table th,.table td{border:1px solid #ddd;padding:10px;text-align:left}.toc{background:#f7f7f7;padding:16px;border-radius:12px}
+@media(max-width:720px){.hero h1{font-size:30px}.nav{display:none}}
