@@ -5,28 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>iPhone螢幕維修｜台北萬華iPhone螢幕破裂觸控維修｜王牌電訊手機維修中心</title>
-
-  <meta
-    name="description"
-    content="iPhone螢幕破裂、觸控異常、綠線、黑屏、漏液或顯示異常，王牌電訊手機維修中心提供台北萬華、西門町附近 iPhone 螢幕維修服務，現場檢測、透明報價，可先電話或 LINE 詢問。"
-  >
-
-  <meta
-    name="keywords"
-    content="iPhone螢幕維修,台北iPhone螢幕維修,萬華iPhone螢幕維修,西門町iPhone螢幕維修,iPhone螢幕破裂,iPhone觸控異常,iPhone綠線,iPhone黑屏,iPhone漏液,手機維修,王牌電訊手機維修中心"
-  >
-
-  <link
-    rel="canonical"
-    href="https://seo.twpwrking.com/pages/iphone-screen.html"
-  >
+  <meta name="description" content="iPhone螢幕破裂、觸控異常、綠線、黑屏、漏液或顯示異常，王牌電訊手機維修中心提供台北萬華、西門町附近 iPhone 螢幕維修服務，現場檢測、透明報價，可先電話或 LINE 詢問。">
+  <meta name="keywords" content="iPhone螢幕維修,台北iPhone螢幕維修,萬華iPhone螢幕維修,西門町iPhone螢幕維修,iPhone螢幕破裂,iPhone觸控異常,iPhone綠線,iPhone黑屏,iPhone漏液,手機維修,王牌電訊手機維修中心">
+  <link rel="canonical" href="https://seo.twpwrking.com/pages/iphone-screen.html">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://www.twpwrking.com/#business",
     "name": "王牌電訊手機維修中心",
-    "url": "https://www.twpwrking.com",
+    "url": "https://www.twpwrking.com/",
     "telephone": "+886-2-2331-3749",
     "address": {
       "@type": "PostalAddress",
@@ -36,13 +25,34 @@
       "streetAddress": "西昌街128號6樓"
     },
     "areaServed": [
-      "萬華",
+      "萬華區",
       "西門町",
-      "台北",
+      "台北市",
       "中正區"
     ],
-    "priceRange": "$$",
-    "description": "王牌電訊手機維修中心提供台北萬華、西門町附近 iPhone 螢幕維修、觸控異常、綠線、黑屏、漏液與手機維修檢測服務。"
+    "description": "王牌電訊手機維修中心提供台北萬華、西門町附近 iPhone 螢幕維修、觸控異常、綠線、黑屏、漏液與手機維修檢測服務。",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Wednesday",
+          "Friday"
+        ],
+        "opens": "08:30",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Tuesday",
+          "Thursday",
+          "Saturday"
+        ],
+        "opens": "12:30",
+        "closes": "21:00"
+      }
+    ]
   }
   </script>
 
@@ -60,7 +70,7 @@
     }
 
     .topbar {
-      padding: 10px;
+      padding: 10px 18px;
       color: #ffffff;
       text-align: center;
       font-size: 15px;
@@ -94,8 +104,10 @@
       text-decoration: none;
     }
 
-    nav a:hover {
+    nav a:hover,
+    nav a[aria-current="page"] {
       text-decoration: underline;
+      text-underline-offset: 4px;
     }
 
     main {
@@ -136,13 +148,30 @@
     a {
       color: #0b6b83;
       font-weight: bold;
+      overflow-wrap: anywhere;
+    }
+
+    a:focus-visible,
+    .table-wrap:focus-visible {
+      outline: 3px solid #e69b00;
+      outline-offset: 4px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 18px;
     }
 
     table {
       width: 100%;
-      margin-top: 18px;
       border-collapse: collapse;
       background: #ffffff;
+    }
+
+    caption {
+      padding-bottom: 10px;
+      text-align: left;
+      font-weight: bold;
     }
 
     th,
@@ -168,13 +197,15 @@
 
     .quick-actions {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 12px;
       margin: 24px 0;
     }
 
     .quick-actions a {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 14px 12px;
       color: #ffffff;
       text-align: center;
@@ -185,12 +216,12 @@
     }
 
     .quick-actions a:hover {
-      opacity: 0.9;
+      background: #08566a;
     }
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 16px;
       margin-top: 18px;
     }
@@ -223,10 +254,10 @@
       display: inline-block;
       margin-top: 8px;
       padding: 11px 18px;
-      color: #ffffff !important;
+      color: #ffffff;
       text-decoration: none;
       background: #0b6b83;
-      border-radius: 999px;
+      border-radius: 10px;
     }
 
     .cta {
@@ -237,6 +268,10 @@
       border-radius: 8px;
     }
 
+    .cta h2 {
+      margin-top: 0;
+    }
+
     .map-box {
       margin-top: 35px;
       padding: 22px;
@@ -245,14 +280,26 @@
       border-radius: 10px;
     }
 
+    .map-box h2 {
+      margin-top: 0;
+    }
+
     .map-button {
       display: inline-block;
       padding: 12px 18px;
-      color: #ffffff !important;
+      color: #ffffff;
       text-decoration: none;
       font-weight: bold;
       background: #d32f2f;
       border-radius: 8px;
+    }
+
+    .map-frame {
+      display: block;
+      width: 100%;
+      height: 320px;
+      border: 0;
+      border-radius: 10px;
     }
 
     .pwr-related-section {
@@ -280,7 +327,7 @@
 
     .pwr-related-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 14px;
       margin: 0;
       padding: 0;
@@ -288,11 +335,14 @@
     }
 
     .pwr-related-grid li {
+      display: flex;
       margin: 0;
     }
 
     .pwr-related-grid a {
-      display: block;
+      display: flex;
+      align-items: center;
+      width: 100%;
       padding: 14px 16px;
       color: #1f2937;
       font-size: 16px;
@@ -301,7 +351,9 @@
       background: #ffffff;
       border: 1px solid #e5e7eb;
       border-radius: 12px;
-      transition: all 0.2s ease;
+      transition: background-color 0.2s ease,
+                  color 0.2s ease,
+                  border-color 0.2s ease;
     }
 
     .pwr-related-grid a:hover {
@@ -310,10 +362,10 @@
       border-color: #c7d2fe;
     }
 
-    .pwr-main-link {
-      color: #1351c4 !important;
-      background: #eaf4ff !important;
-      border-color: #93c5fd !important;
+    .pwr-related-grid .pwr-main-link {
+      color: #1351c4;
+      background: #eaf4ff;
+      border-color: #93c5fd;
     }
 
     .pwr-contact-box {
@@ -331,7 +383,7 @@
     }
 
     .pwr-contact-box p {
-      margin-bottom: 8px;
+      margin: 0 0 12px;
       color: #f3f4f6;
     }
 
@@ -343,7 +395,7 @@
 
     footer {
       margin-top: 30px;
-      padding: 20px;
+      padding: 24px 18px;
       color: #ffffff;
       text-align: center;
       background: #0b6b83;
@@ -367,7 +419,9 @@
         font-size: 15px;
       }
 
-      .quick-actions {
+      .quick-actions,
+      .cards,
+      .pwr-related-grid {
         grid-template-columns: 1fr;
       }
 
@@ -380,7 +434,10 @@
         padding: 10px;
       }
 
-      .main-site-guide {
+      .main-site-guide,
+      .cta,
+      .map-box,
+      .pwr-contact-box {
         padding: 20px 16px;
       }
 
@@ -394,7 +451,6 @@
       }
 
       .pwr-related-grid {
-        grid-template-columns: 1fr;
         gap: 10px;
       }
 
@@ -416,19 +472,21 @@
   <strong>王牌電訊手機維修中心</strong>
 </header>
 
-<nav>
+<nav aria-label="主要導覽">
   <a href="../">首頁</a>
   <a href="./taipei-phone-repair.html">台北手機維修</a>
   <a href="./area-wanhua.html">萬華手機維修</a>
   <a href="./area-ximending.html">西門町手機維修</a>
   <a href="./android-phone-repair.html">Android手機維修</a>
-  <a href="./samsung.html">三星手機維修</a>
+  <a href="./samsung-phone-repair.html">三星手機維修</a>
   <a href="./iphone-repair.html">iPhone維修</a>
   <a href="./iphone-battery.html">iPhone換電池</a>
-  <a href="./iphone-screen.html">iPhone螢幕維修</a>
-  <a href="./iphone-charging.html">手機無法充電維修</a>
-  <a href="./iphone-motherboard.html">手機主機板維修</a>
-  <a href="./iphone-water-damage.html">手機泡水進水維修</a>
+  <a href="./iphone-screen.html" aria-current="page">iPhone螢幕維修</a>
+  <a href="./iphone-charging.html">iPhone無法充電維修</a>
+  <a href="./iphone-motherboard.html">iPhone主機板維修</a>
+  <a href="./iphone-water-damage.html">iPhone泡水進水維修</a>
+  <a href="./ipad-repair.html">iPad維修</a>
+  <a href="./tablet-repair.html">平板維修</a>
 </nav>
 
 <main>
@@ -436,549 +494,427 @@
   <h1>iPhone螢幕維修｜台北萬華 iPhone螢幕破裂觸控維修</h1>
 
   <p>
-    iPhone 螢幕破裂、觸控異常、畫面閃爍、綠線、黑屏、漏液或顯示異常，
-    不一定只是表面玻璃破裂，也可能與螢幕總成、觸控層、排線、
-    摔機受力或內部零件有關。
+    iPhone 螢幕破裂、觸控異常、畫面閃爍、綠線、黑屏、
+    出現俗稱「漏液」的黑斑或其他顯示異常，
+    需要先確認受損範圍與相關功能。
     王牌電訊手機維修中心位於台北萬華、西門町附近，
     提供 iPhone 螢幕維修與現場檢測服務。
   </p>
 
   <p>
-    維修前會先確認螢幕顯示、觸控、
-    Face ID 附近狀況、機身邊框是否變形，
-    再依照實際故障情況說明可行的維修方式與報價。
+    維修前會先確認顯示、觸控、
+    前鏡頭與 Face ID 等基本功能，以及機身邊框狀況，
+    再依實際機況說明可行維修方式、零件規格與報價。
   </p>
 
   <div class="quick-actions">
+    <a href="tel:0223313749">一鍵撥號：02-2331-3749</a>
 
-    <a href="tel:0223313749">
-      一鍵撥號
-    </a>
-
-    <a
-      href="https://line.me/ti/p/aiySOQmLGx"
-      target="_blank"
-      rel="noopener"
-    >
+    <a href="https://line.me/ti/p/aiySOQmLGx"
+       target="_blank"
+       rel="noopener">
       加入 LINE 詢問
     </a>
 
-    <a
-      href="https://www.google.com/maps/search/?api=1&amp;query=台北市萬華區西昌街128號6樓"
-      target="_blank"
-      rel="noopener"
-    >
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=台北市萬華區西昌街128號6樓"
+       target="_blank"
+       rel="noopener">
       Google 地圖導航
     </a>
-
   </div>
 
   <h2>iPhone 螢幕常見維修狀況</h2>
 
   <div class="cards">
-
     <div class="card">
       <h3>螢幕破裂</h3>
-
       <p>
-        玻璃破裂、邊角裂開、摔機後畫面仍可顯示，
-        但外觀、安全性與後續進水風險可能受到影響。
+        玻璃破裂、邊角裂開或摔落後外觀受損，
+        需確認顯示、觸控與機身狀況，再評估處理方式。
       </p>
     </div>
 
     <div class="card">
       <h3>觸控異常</h3>
-
       <p>
-        局部不能觸控、亂跳、打字不準、滑動不順，
-        可能與觸控層、螢幕總成或排線有關。
+        局部不能觸控、畫面自行點擊、
+        打字不準或滑動不順，需依症狀檢測。
       </p>
     </div>
 
     <div class="card">
       <h3>綠線、黑屏、漏液</h3>
-
       <p>
-        畫面出現綠線、白線、黑屏、漏液或顯示異常，
-        通常需要先檢查螢幕與主機板狀況。
+        出現線條、黑畫面、黑斑或顯示異常，
+        需確認裝置是否正常開機及顯示相關狀況。
       </p>
     </div>
 
     <div class="card">
-      <h3>摔機後顯示異常</h3>
-
+      <h3>摔落後顯示異常</h3>
       <p>
-        摔機後若螢幕、Face ID 區域或邊框受力，
-        需要確認是否還有其他零件一起受到影響。
+        摔落後除了螢幕，也會檢查邊框及相關基本功能，
+        確認是否有其他部位一併受損。
       </p>
     </div>
-
   </div>
 
   <h2>iPhone 螢幕檢測流程</h2>
 
-  <table>
-    <thead>
-      <tr>
-        <th>步驟</th>
-        <th>說明</th>
-      </tr>
-    </thead>
+  <div class="table-wrap"
+       role="region"
+       aria-label="iPhone 螢幕檢測流程表"
+       tabindex="0">
+    <table>
+      <caption>先檢查機況，再確認規格與報價</caption>
 
-    <tbody>
-      <tr>
-        <td>1. 外觀檢查</td>
-        <td>
-          確認螢幕破裂程度、邊框是否變形、
-          是否有摔機或其他外傷。
-        </td>
-      </tr>
+      <thead>
+        <tr>
+          <th scope="col">步驟</th>
+          <th scope="col">說明</th>
+        </tr>
+      </thead>
 
-      <tr>
-        <td>2. 觸控測試</td>
-        <td>
-          檢查滑動、點擊、打字、
-          局部觸控與多點觸控是否正常。
-        </td>
-      </tr>
+      <tbody>
+        <tr>
+          <th scope="row">1. 外觀檢查</th>
+          <td>
+            確認破裂程度、邊框狀況，
+            並了解摔落、進水或過往維修經過。
+          </td>
+        </tr>
 
-      <tr>
-        <td>3. 顯示測試</td>
-        <td>
-          確認亮度、色彩、綠線、黑屏、
-          閃爍、漏液或顯示不均狀況。
-        </td>
-      </tr>
+        <tr>
+          <th scope="row">2. 觸控測試</th>
+          <td>
+            在可操作的情況下，
+            檢查點擊、滑動、打字及不同區域觸控。
+          </td>
+        </tr>
 
-      <tr>
-        <td>4. 報價說明</td>
-        <td>
-          維修前先說明可行處理方式、
-          螢幕規格與費用，再決定是否維修。
-        </td>
-      </tr>
-    </tbody>
-  </table>
+        <tr>
+          <th scope="row">3. 顯示與功能確認</th>
+          <td>
+            檢查顯示異常及相關基本功能，
+            記錄送修時已存在的問題。
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">4. 報價與維修</th>
+          <td>
+            說明處理方式、零件規格、費用、
+            保固條件與預估時間，經您確認後再進行。
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
   <h2>iPhone 螢幕破裂一定要換螢幕嗎？</h2>
 
   <p>
-    不一定只看玻璃裂痕大小，
-    還要看觸控是否正常、畫面是否有漏液、
-    綠線、黑屏、閃爍與機身邊框是否變形。
+    不能只看裂痕大小，
+    還要確認顯示、觸控、螢幕連接部位及機身狀況。
+    只有外玻璃破裂，與顯示、觸控一併損壞，
+    可採用的處理方式可能不同。
   </p>
 
   <p>
-    如果只是外玻璃破裂但顯示與觸控正常，
-    實際維修方式可能與整個螢幕總成故障不同。
-    若已經出現觸控失靈、畫面異常、漏液、
-    綠線或黑屏，建議先檢測再決定維修方式。
+    是否能處理外玻璃，或需要更換螢幕總成，
+    需依型號、損壞範圍、零件供應與檢測結果確認，
+    不保證每台都適合單換玻璃。
   </p>
 
   <h2>iPhone 螢幕維修前要注意什麼？</h2>
 
   <p>
-    若螢幕破裂但還能操作，
-    建議先備份重要資料，
-    避免後續故障變嚴重後無法操作手機。
+    詢問時請提供完整機型、故障照片或影片，
+    並告知手機是否曾摔落、進水或更換螢幕。
+    若有重要資料，請先說明資料保留需求。
   </p>
 
   <p>
-    如果螢幕已經漏液、觸控亂跳或黑屏，
-    不建議反覆強壓螢幕測試，
-    也不要讓玻璃碎片持續掉入機身內部。
-  </p>
-
-  <p>
-    王牌電訊會先確認螢幕、觸控、
-    邊框與基本功能，再說明維修方向。
-    如果同時有充電異常、進水、不開機或主機板問題，
-    也會一併檢查。
+    不要反覆強壓螢幕或自行拆機測試。
+    維修前會記錄顯示、觸控與相關功能狀況，
+    再說明本次處理範圍。
+    若同時有充電、不開機或其他異常，也請一併告知。
   </p>
 
   <h2>螢幕破裂後還能正常使用，需要馬上修嗎？</h2>
 
   <p>
-    即使畫面和觸控目前仍正常，
-    破裂玻璃仍可能增加割傷、
-    灰塵與水氣進入的風險。
-    如果裂痕持續擴大，
-    也可能逐漸影響觸控與顯示。
+    畫面與觸控目前正常，並不代表只有外觀問題。
+    建議先確認破裂與受損範圍，
+    不要只以「還能操作」判斷是否需要處理。
   </p>
 
   <p>
-    若裂痕靠近 Face ID、
-    前鏡頭或螢幕邊緣，
-    更建議先檢查受損範圍。
+    若裂痕靠近前鏡頭、Face ID 區域或螢幕邊緣，
+    詢問時可提供照片，現場再確認相關功能與機身狀況。
   </p>
 
   <h2>iPhone 觸控異常一定是螢幕問題嗎？</h2>
 
   <p>
-    不一定。
-    觸控失靈可能來自螢幕總成，
-    也可能與排線、摔機變形、
-    進水或主機板相關。
+    不一定。觸控異常需依實際症狀檢測，
+    並確認螢幕、連接部位與其他相關機況。
+    如果曾更換螢幕，請告知更換時間與後續發生的問題。
   </p>
 
   <p>
-    如果換過螢幕後仍然出現觸控亂跳、
-    局部失靈或完全沒有觸控，
-    就需要進一步檢查其他硬體。
+    若更換後仍有局部失靈或自行點擊，
+    需要進一步確認原因，不能只靠症狀判定是哪個零件故障。
   </p>
 
   <h2>iPhone 黑屏一定是螢幕壞掉嗎？</h2>
 
   <p>
-    不一定。
-    如果手機仍有震動、鈴聲或充電反應，
-    但畫面完全看不到，
-    有可能是螢幕或顯示相關問題。
+    不一定。檢測時會先確認手機是否仍有鈴聲、
+    震動或其他正常啟動跡象，再檢查顯示狀況。
   </p>
 
   <p>
-    如果手機完全沒有任何開機反應，
-    則還需要確認電池、供電、
-    主機板或其他硬體，
-    不能只依「黑屏」就直接判定要換螢幕。
+    如果完全沒有開機反應，
+    則需要先做基本供電與啟動檢查。
+    不能只依黑畫面就直接判定需要更換螢幕。
+    相關資訊可查看
+    <a href="./iphone-motherboard.html">iPhone 不開機與主機板檢測</a>。
+  </p>
+
+  <h2>螢幕規格、價格與保固如何確認？</h2>
+
+  <p>
+    不同機型可用的零件與處理方式不同。
+    報價前會確認零件來源、規格與費用，
+    並依實際選用零件說明顯示、觸控及相關功能的適用範圍。
+  </p>
+
+  <p>
+    請在維修前確認本次保固內容、
+    是否有其他受損部位需要另外處理，以及預估交件時間。
+    不以單一名稱概括所有螢幕的規格與功能。
   </p>
 
   <h2>台北萬華、西門町附近 iPhone 螢幕維修</h2>
 
   <p>
     如果正在找台北 iPhone 螢幕維修、
-    萬華 iPhone 螢幕維修、
-    西門町 iPhone 螢幕維修、
-    iPhone 螢幕破裂、iPhone 觸控異常或手機維修，
+    萬華 iPhone 螢幕維修、西門町 iPhone 螢幕維修，
+    或需要處理破裂、觸控與顯示異常，
     可以先電話或 LINE 詢問。
   </p>
 
   <p>
-    王牌電訊手機維修中心鄰近萬華、西門町商圈，
-    適合附近上班、逛街、生活，
-    或臨時遇到 iPhone 螢幕故障的客人。
+    王牌電訊手機維修中心位於台北市萬華區西昌街128號6樓。
+    來店前請提供完整型號與故障狀況，
+    確認檢測安排及零件供應。
+    正式報價與交件時間，以實際機況及當日安排為準。
   </p>
 
-  <!-- 導向主站台北 iPhone 維修核心頁 -->
   <section class="main-site-guide">
-
-    <h2>摔機後不只螢幕有問題？查看台北 iPhone 維修完整服務</h2>
+    <h2>摔落後不只螢幕有問題？查看台北 iPhone 維修完整服務</h2>
 
     <p>
-      如果 iPhone 摔機後除了螢幕破裂，
-      還同時出現無法充電、不開機、Face ID 異常、
-      進水、重開機或主機板故障，
-      就不一定只是單純螢幕問題。
+      如果同時有無法充電、不開機、Face ID 異常、
+      反覆重開或其他功能問題，請在送修前一併告知。
     </p>
 
     <p>
-      可前往王牌電訊手機維修中心主站，
-      查看 iPhone 螢幕、電池、充電、
-      不開機、進水及主機板等完整故障檢測資訊。
+      可前往王牌電訊主站，
+      查看 iPhone 螢幕、電池、充電、不開機、
+      進水及主機板等維修資訊。
     </p>
 
-    <p>
-      <a
-        class="main-site-button"
-        href="https://www.twpwrking.com/portal_a1.php?button_num=a1&amp;owner_num=a1_626009"
-        title="台北iPhone維修｜王牌電訊手機維修中心"
-      >
-        台北 iPhone 維修完整服務
-      </a>
-    </p>
-
+    <a class="main-site-button"
+       href="https://www.twpwrking.com/portal_a1.php?button_num=a1&amp;owner_num=a1_626009">
+      台北 iPhone 維修完整服務
+    </a>
   </section>
 
   <div class="notice">
-    iPhone 螢幕破裂、觸控異常、
-    綠線、黑屏或漏液，
-    建議先來電或 LINE 詢問。
-    先確認機型與故障狀況，
-    再依現場檢測結果判斷維修方向。
+    螢幕破裂、觸控異常、綠線、黑屏或黑斑，
+    請先提供完整機型與症狀。
+    現場檢測、先報價再維修。
   </div>
 
   <section class="cta">
-
     <h2>聯絡王牌電訊手機維修中心｜台北萬華 iPhone 螢幕維修</h2>
 
     <p>
-      王牌電訊手機維修中心提供台北萬華、
-      西門町附近 iPhone 螢幕維修服務，
-      包含螢幕破裂、觸控異常、綠線、黑屏、
-      漏液、摔機後顯示異常等問題檢測。
+      提供 iPhone 螢幕破裂、觸控異常、線條、
+      黑畫面與摔落後顯示異常等檢測維修服務。
+      可先來電或加入 LINE 確認機型與安排。
     </p>
 
     <p>
       電話：
-      <a href="tel:0223313749">
-        <strong>0223313749</strong>
-      </a>
+      <a href="tel:0223313749">02-2331-3749</a>
     </p>
 
     <p>
       LINE：
-      <a
-        href="https://line.me/ti/p/aiySOQmLGx"
-        target="_blank"
-        rel="noopener"
-      >
-        <strong>點我加入 LINE 詢問</strong>
-      </a>
-    </p>
-
-    <p>
-      地址：
-      <a
-        href="https://www.google.com/maps/search/?api=1&amp;query=台北市萬華區西昌街128號6樓"
-        target="_blank"
-        rel="noopener"
-      >
-        台北市萬華區西昌街128號6樓
-      </a>
-    </p>
-
-    <p>
-      完整 iPhone 維修資訊：
-      <a
-        href="https://www.twpwrking.com/portal_a1.php?button_num=a1&amp;owner_num=a1_626009"
-      >
-        台北 iPhone 維修｜王牌電訊手機維修中心
-      </a>
-    </p>
-
-  </section>
-
-  <section class="map-box">
-
-    <h2>王牌電訊手機維修中心｜Google 地圖導航</h2>
-
-    <p>
-      王牌電訊位於台北市萬華區西昌街128號6樓，
-      鄰近西門町商圈與龍山寺捷運站。
-      若需要 iPhone 螢幕維修、換電池、
-      充電異常、主機板檢修或手機進水處理，
-      建議先來電或 LINE 詢問。
-    </p>
-
-    <p>
-      <strong>地址：</strong>
-      <a
-        href="https://www.google.com/maps/search/?api=1&amp;query=台北市萬華區西昌街128號6樓"
-        target="_blank"
-        rel="noopener"
-      >
-        台北市萬華區西昌街128號6樓
-      </a>
-      <br>
-
-      <strong>電話：</strong>
-      <a href="tel:0223313749">
-        0223313749
-      </a>
-      <br>
-
-      <strong>LINE：</strong>
-      <a
-        href="https://line.me/ti/p/aiySOQmLGx"
-        target="_blank"
-        rel="noopener"
-      >
+      <a href="https://line.me/ti/p/aiySOQmLGx"
+         target="_blank"
+         rel="noopener">
         點我加入 LINE 詢問
       </a>
     </p>
 
     <p>
-      <a
-        href="https://www.google.com/maps/search/?api=1&amp;query=台北市萬華區西昌街128號6樓"
-        target="_blank"
-        rel="noopener"
-        class="map-button"
-      >
-        📍 點我直接開啟 Google 地圖導航
+      地址：
+      <a href="https://www.google.com/maps/dir/?api=1&amp;destination=台北市萬華區西昌街128號6樓"
+         target="_blank"
+         rel="noopener">
+        台北市萬華區西昌街128號6樓（點我導航）
+      </a>
+    </p>
+
+    <p>
+      營業時間：<br>
+      週一、三、五 08:30–21:00<br>
+      週二、四、六 12:30–21:00<br>
+      週日與國定假日公休
+    </p>
+
+    <p>
+      完整 iPhone 維修資訊：
+      <a href="https://www.twpwrking.com/portal_a1.php?button_num=a1&amp;owner_num=a1_626009">
+        台北 iPhone 維修｜王牌電訊手機維修中心
+      </a>
+    </p>
+  </section>
+
+  <section class="map-box">
+    <h2>王牌電訊手機維修中心｜Google 地圖導航</h2>
+
+    <p>
+      門市位於台北市萬華區西昌街128號6樓。
+      來店前建議先確認機型、故障狀況與檢測安排。
+    </p>
+
+    <p>
+      <strong>地址：</strong>
+      <a href="https://www.google.com/maps/dir/?api=1&amp;destination=台北市萬華區西昌街128號6樓"
+         target="_blank"
+         rel="noopener">
+        台北市萬華區西昌街128號6樓
+      </a><br>
+
+      <strong>電話：</strong>
+      <a href="tel:0223313749">02-2331-3749</a><br>
+
+      <strong>LINE：</strong>
+      <a href="https://line.me/ti/p/aiySOQmLGx"
+         target="_blank"
+         rel="noopener">
+        點我加入 LINE 詢問
+      </a>
+    </p>
+
+    <p>
+      <a class="map-button"
+         href="https://www.google.com/maps/dir/?api=1&amp;destination=台北市萬華區西昌街128號6樓"
+         target="_blank"
+         rel="noopener">
+        點我開啟 Google 地圖導航
       </a>
     </p>
 
     <iframe
+      class="map-frame"
       src="https://www.google.com/maps?q=台北市萬華區西昌街128號6樓&amp;output=embed"
-      width="100%"
-      height="320"
-      style="border:0; border-radius:10px;"
-      allowfullscreen=""
       loading="lazy"
-      title="王牌電訊手機維修中心地圖"
-    >
+      allowfullscreen
+      title="王牌電訊手機維修中心位置地圖">
     </iframe>
-
   </section>
 
   <section class="pwr-related-section">
-
     <h2>王牌電訊手機維修中心相關服務</h2>
 
     <p>
       王牌電訊手機維修中心位於台北萬華，
-      提供 iPhone 維修、Android 手機維修、
-      三星手機維修、iPad 維修、平板維修與手機主機板檢測服務。
-      可依照不同故障狀況查看以下服務頁面。
+      提供 iPhone、Android、三星手機、iPad 與平板維修服務。
+      可依設備與故障狀況查看以下頁面。
     </p>
 
     <ul class="pwr-related-grid">
-
+      <li><a href="../">萬華手機維修首頁</a></li>
+      <li><a href="./taipei-phone-repair.html">台北手機維修</a></li>
+      <li><a href="./area-wanhua.html">萬華手機維修</a></li>
+      <li><a href="./area-ximending.html">西門町手機維修</a></li>
+      <li><a href="./iphone-repair.html">iPhone 維修</a></li>
+      <li><a href="./iphone-battery.html">iPhone 換電池</a></li>
+      <li><a href="./iphone-screen.html">iPhone 螢幕維修</a></li>
+      <li><a href="./iphone-charging.html">iPhone 充電異常維修</a></li>
+      <li><a href="./iphone-water-damage.html">iPhone 泡水進水維修</a></li>
+      <li><a href="./iphone-motherboard.html">iPhone 主機板維修</a></li>
+      <li><a href="./android-phone-repair.html">Android 手機維修</a></li>
+      <li><a href="./samsung-phone-repair.html">三星手機維修</a></li>
+      <li><a href="./ipad-repair.html">iPad 維修</a></li>
+      <li><a href="./tablet-repair.html">平板維修</a></li>
       <li>
-        <a href="../">
-          萬華手機維修首頁
-        </a>
-      </li>
-
-      <li>
-        <a href="./taipei-phone-repair.html">
-          台北手機維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./area-wanhua.html">
-          萬華手機維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./area-ximending.html">
-          西門町手機維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./iphone-repair.html">
-          iPhone 維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./iphone-battery.html">
-          iPhone 換電池
-        </a>
-      </li>
-
-      <li>
-        <a href="./iphone-screen.html">
-          iPhone 螢幕維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./iphone-charging.html">
-          iPhone 充電異常維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./iphone-water-damage.html">
-          iPhone 泡水進水維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./iphone-motherboard.html">
-          iPhone 主機板維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./android-phone-repair.html">
-          Android 手機維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./samsung-phone-repair.html">
-          三星手機維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./ipad-repair.html">
-          iPad 維修
-        </a>
-      </li>
-
-      <li>
-        <a href="./tablet-repair.html">
-          平板維修
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="pwr-main-link"
-          href="https://www.twpwrking.com/portal_a1.php?button_num=a1&amp;owner_num=a1_626009"
-        >
+        <a class="pwr-main-link"
+           href="https://www.twpwrking.com/portal_a1.php?button_num=a1&amp;owner_num=a1_626009">
           台北 iPhone 維修完整服務
         </a>
       </li>
-
     </ul>
 
     <div class="pwr-contact-box">
-
       <h2>台北萬華 iPhone 螢幕維修，建議先來電或 LINE 詢問</h2>
 
       <p>
-        iPhone 螢幕破裂、觸控異常、
-        綠線、黑屏、漏液或摔機後顯示異常，
-        都建議先檢測再報價。
-        王牌電訊手機維修中心提供現場檢測、
-        先報價再維修。
+        請提供完整型號、故障照片與過往維修經過，
+        方便確認檢測安排。
+        現場檢測、先報價再維修。
       </p>
 
       <p>
-        電話：
-        <a href="tel:0223313749">
-          0223313749
-        </a>
+        電話：<a href="tel:0223313749">02-2331-3749</a>
       </p>
 
       <p>
         LINE：
-        <a
-          href="https://line.me/ti/p/aiySOQmLGx"
-          target="_blank"
-          rel="noopener"
-        >
+        <a href="https://line.me/ti/p/aiySOQmLGx"
+           target="_blank"
+           rel="noopener">
           點我加入 LINE 詢問
         </a>
       </p>
 
       <p>
         地址：
-        <a
-          href="https://www.google.com/maps/search/?api=1&amp;query=台北市萬華區西昌街128號6樓"
-          target="_blank"
-          rel="noopener"
-        >
-          台北市萬華區西昌街128號6樓
+        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=台北市萬華區西昌街128號6樓"
+           target="_blank"
+           rel="noopener">
+          台北市萬華區西昌街128號6樓（點我導航）
         </a>
       </p>
 
+      <p>
+        週一、三、五 08:30–21:00<br>
+        週二、四、六 12:30–21:00<br>
+        週日與國定假日公休
+      </p>
     </div>
-
   </section>
 
 </main>
 
 <footer>
-  <strong>王牌電訊手機維修中心</strong>
-  <br>
-
-  服務：iPhone 螢幕維修、iPhone 電池更換、
-  手機無法充電、進水處理、主機板檢修、Android 手機維修
-  <br>
-
-  電話：
-  <a href="tel:0223313749">0223313749</a>
-  ｜地址：台北市萬華區西昌街128號6樓
-  <br>
-
+  <strong>王牌電訊手機維修中心</strong><br>
+  服務：iPhone 螢幕維修、電池更換、充電異常、進水處理、主機板檢修、Android 手機維修<br>
+  電話：<a href="tel:0223313749">02-2331-3749</a><br>
+  地址：
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=台北市萬華區西昌街128號6樓"
+     target="_blank"
+     rel="noopener">
+    台北市萬華區西昌街128號6樓
+  </a><br>
+  週一、三、五 08:30–21:00｜週二、四、六 12:30–21:00<br>
+  週日與國定假日公休<br>
   © 2026 王牌電訊手機維修中心｜台北萬華 iPhone 螢幕維修
 </footer>
 
